@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root {
+  --font-base: 'Cormorant Upright', serif;
+  --font-alt: 'Open Sans', sans-serif;
+  
+  --color-One: #dfdedd;
+  --color-Two: #8e9091;
+  --color-Three: #03001C;
+  --color-Four: #88633f;
+  --color-Five: #504c47;
+  --color-Six: #4C0033;
+  --color-Seven: #8d8e91;
+  --color-Eight: #301E67;
+  --color-Nine: #313841;
+  --color-Ten: #5B8FB9;
+  --color-Eleven: #0f0f0e;
+
+  
+
+--clr-primary: #d50000;
+--clr-primary-hover: #29e6a7;
+--clr-primary-dark: #039d69;
+--clr-gray100: #f9fbff;
+--clr-gray150: #f4f6fb;
+--clr-gray200: #eef1f6;
+--clr-gray300: #e1e5ee;
+--clr-gray400: #767b91;
+--clr-gray500: #4f546c;
+--clr-gray600: #2a324b;
+--clr-gray700: #161d34;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+html{
+  font-size: 62.5%;
+}
+body{
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.slide-bottom {
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+
