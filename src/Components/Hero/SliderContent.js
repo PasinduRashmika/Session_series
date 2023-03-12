@@ -24,7 +24,7 @@ function SliderContent({ activeIndex, sliderImage }) {
           </h3>
           <div className="buttonInside">
           <a href="/login"><ButtonOne title={"Login"}  href="/login"/></a>
-          <ButtonTwo title={"EXPORE ME"} />
+          <ButtonTwo title={"About us"} />
           </div>
         </div>
       ))}
