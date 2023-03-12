@@ -24,7 +24,7 @@ const PromoHead = () => {
         <hr data-aos="fade-up"/>
       </PromoHeadColOne>
       <PromoHeadColTwo data-aos="zoom-in">
-      PROMO VIDEO
+      Industry visit #2023
         {/* <PromoHeadSenOne><>Don't Miss this &nbsp;  </></PromoHeadSenOne>
         <PromoHeadSenTwo> <>Amazing conference &nbsp;  </></PromoHeadSenTwo>
         <PromoHeadSenThree> <>and &nbsp; </></PromoHeadSenThree>

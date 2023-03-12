@@ -1,49 +1,45 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter ,Routes, Route } from "react-router-dom";
 import ScrollToTop from './Hooks/ScrollToTop';
 import Home from "./Pages/Home";
 import AboutUs from "./Pages/AboutUs";
 import Login from "./Pages/Login";
+import LearningSession from "./Pages/LearningSessions";
+import Mockinterviews from "./Pages/MockInterviews";
+import EnglishSessions from "./Pages/EnglishSessions";
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
+    
       <div className="App">
       <ScrollToTop/>
-        {/* <ScrollToTop/> */}
+      
         <div className="content">
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route exact path="/home">
-              <Home />
-            </Route>
-            <Route exact path="/services">
-              <Home />
-            </Route>
-            <Route exact path="/pages">
-              <Home />
-            </Route>
-            <Route exact path="/portfolio">
-              <Home />
-            </Route>
-            <Route exact path="/login">
-              <Login />
-            </Route>
-            <Route exact path="/shop">
-              <Home />
-            </Route>
-            <Route exact path="/aboutus">
-              <AboutUs />
-            </Route>
+        <Routes >
+            <Route  path="/" element={<Home />} exact />
+              
+            <Route  path="/home"  element={<Home />} exact/>
+  
+            <Route  path="/learningSessions"  element={<LearningSession />} exact/>
 
-            {/* <Route exact path="/resorcepersons">
-            <ResorcePersons />
-          </Route> */}
-          </Switch>
+            <Route  path="/mockinterviews"  element={<Mockinterviews />} exact/>
+
+            <Route  path="/englishSession"  element={<EnglishSessions />} exact/>
+
+            <Route  path="/login"  element={<Login />} exact/>
+
+            <Route  path="/aboutus"  element={<AboutUs />} exact/>
+
+
+           
+          </Routes>
         </div>
+        
       </div>
-    </Router>
+      
+    </BrowserRouter>
+
+
   );
 }
 

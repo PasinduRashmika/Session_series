@@ -8,20 +8,20 @@ const Guarantee = () => {
     return (
         <GuaranteeContainer>
             <GuaranteeOne >
-                <GuaranteeRowOne data-aos="fade-down">On-time</GuaranteeRowOne>
-                <GuaranteeRowTwo data-aos="fade-down">Delivery</GuaranteeRowTwo>
+                <GuaranteeRowOne data-aos="fade-down">Expert </GuaranteeRowOne>
+                <GuaranteeRowTwo data-aos="fade-down">Speakers</GuaranteeRowTwo>
             </GuaranteeOne>
             <GuaranteeOne>
-                <GuaranteeRowOne data-aos="fade-down">Best</GuaranteeRowOne>
-                <GuaranteeRowTwo data-aos="fade-down">Price</GuaranteeRowTwo>
+                <GuaranteeRowOne data-aos="fade-down">Latest</GuaranteeRowOne>
+                <GuaranteeRowTwo data-aos="fade-down">Technologies</GuaranteeRowTwo>
             </GuaranteeOne>
             <GuaranteeOne>
-                <GuaranteeRowOne data-aos="fade-down">Superior</GuaranteeRowOne>
-                <GuaranteeRowTwo data-aos="fade-down">Quality</GuaranteeRowTwo>
+                <GuaranteeRowOne data-aos="fade-down">Better</GuaranteeRowOne>
+                <GuaranteeRowTwo data-aos="fade-down">Experience</GuaranteeRowTwo>
             </GuaranteeOne>
             <GuaranteeOne>
-                <GuaranteeRowOne data-aos="fade-down">Safety</GuaranteeRowOne>
-                <GuaranteeRowTwo data-aos="fade-down">Assured</GuaranteeRowTwo>
+                <GuaranteeRowOne data-aos="fade-down">Interactive </GuaranteeRowOne>
+                <GuaranteeRowTwo data-aos="fade-down">Sessions</GuaranteeRowTwo>
             </GuaranteeOne>
 
         </GuaranteeContainer>

@@ -18,6 +18,7 @@ import Gallery from "../Components/Gallery/WSPGallery";
 import DontMiss from "../Components/DontMiss/DontMiss";
 import Coordinators from "../Components/AboutEvent/AboutEvent"
 import data from "../Components/AboutEvent/Data";
+import FooterNew from "../Components/FooterNew/Footer";
 
 const Home = () => {
     return (
@@ -35,9 +36,10 @@ const Home = () => {
             <PromoHead />
             <PromoSub />
             <Promo />
-            <Customer pro={QuoteData} />
+            {/* <Customer pro={QuoteData} /> */}
             <Coordinators data={data}/>
-            <Footer />
+            {/* <Footer /> */}
+            <FooterNew />
             <CopyRight />
             
         </div>

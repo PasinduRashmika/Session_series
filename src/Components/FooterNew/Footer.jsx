@@ -28,13 +28,18 @@ const Footer = () => {
       <FooterColOne>
         <FooterSubColOne>
           <FooterSubColOneBody>
-            <TitleOne>DCS Sessions 2023</TitleOne>
+            <TitleOne>Events</TitleOne>
             {/* <SubTitleOne>information</SubTitleOne> */}
+
+            <ConName>Learning Sessions</ConName>
+            {/* <Date>02 Apr 2023</Date> */}
+            <ConName>Mock Interviews</ConName>
+            <ConName>English Programme</ConName>
+
+            {/* <ConVenue>Convoke Place Address</ConVenue>
             <ConeAddress>
-              <p>Learning Sessions</p>
-              <p>Mock Interviews</p>
-              <p>English Programme</p>
-            </ConeAddress>
+              Department of Computer Science <br />University of Ruhuna
+            </ConeAddress> */}
           </FooterSubColOneBody>
         </FooterSubColOne>
         <FooterSubColTwo>
@@ -42,15 +47,13 @@ const Footer = () => {
             <TitleTwo>Contact Us</TitleTwo>
           {/* <SubTitleTwo>Contact us</SubTitleTwo> */}
 
+          <Office>Department of Computer Science</Office>
+          <OfficeAddress>University of Ruhuna</OfficeAddress>
 
-          <OfficeAddress>
-            <p><pre>Address:</pre>Department of Computer Science, University of Ruhuna, Matara, Sri Lanka. </p>
-            <p><pre>Phone:</pre> +94 041 2222681 ,  +94 041 2222682 </p>
-            <p><pre>Web:</pre>https://www.sci.ruh.ac.lk/computer/</p>
-            
-          </OfficeAddress>
+          <ConvContact>Contact Information</ConvContact>
           <ConContactInfo>
             <FooterContactP></FooterContactP>
+            <FooterContactP>Tel : +94 041 2222681/2 Ext 4801/2</FooterContactP>
           </ConContactInfo>
             </FooterSubColTwoBody>
           
@@ -58,7 +61,7 @@ const Footer = () => {
       </FooterColOne>
 
       <FooterColTwo>
-      <a href="/home"> <img src={img1} alt="" /></a>
+        <img src={img1} alt="" />
       </FooterColTwo>
     </FooterContainer>
   );

@@ -22,7 +22,7 @@ const Mission = () => {
                 <MissionBody data-aos="fade-right">
                     <p>By BCS Alumni</p>
                     <br />
-                    <p>Starting from 08th of September 2022</p>
+                    <p>Starting from 02th of April 2023</p>
                     <br />
                     <p>Conducted by  Department of Computer Science, Faculty of Science, University of Ruhuna</p>
                 </MissionBody>

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const GuaranteeContainer =styled.div`
-    background: var(--color-Six);
+    background: var(--color-Three);
     display: flex;
     flex:  0 1 100%;
     height: 3rem;

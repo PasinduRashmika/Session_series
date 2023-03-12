@@ -13,7 +13,6 @@ import {
 } from "./NavbarElements";
 import { Link } from "react-router-dom";
 import img1 from "../../Images/galaxypng.png";
-import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
 import { HashLink as Links } from "react-router-hash-link/dist/react-router-hash-link.cjs.production";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -25,11 +24,11 @@ const Navbar = () => {
       <NavbarInnerContainer>
         <LeftContainer>
           <NavbarLinkContainer >
-            <NavbarLink to="/home"><Link to='/home' ><a href="/home">Home</a></Link></NavbarLink>
-            <NavbarLink to="/"><Links to='#Service' >services</Links></NavbarLink>
-            <NavbarLink to="/"><Links to='#mission' >portfolio</Links></NavbarLink>
-            <NavbarLink to="/"><Links to='#Service' >blog</Links></NavbarLink>
-            <NavbarLink to="/"><Links to='#footer' >about us</Links></NavbarLink>
+            <NavbarLink to="/home"><a href="/home">Home</a></NavbarLink>
+            <NavbarLink to="/learningSessions"><a href='/learningSessions' >Learning Sessions</a></NavbarLink>
+            <NavbarLink to="/mockinterviews"><a href='/mockinterviews' >Mock Interviews</a></NavbarLink>
+            <NavbarLink to="/englishSession"><a href='/englishSession' >English Programme</a></NavbarLink>
+            <NavbarLink to="/"><Links to='#footer' >About us</Links></NavbarLink>
             <OpenLinksButton
               onClick={() => {
                 setExtendNavbar((curr) => !curr);
@@ -47,11 +46,11 @@ const Navbar = () => {
       {extendNavbar && (
         <NavbarExtendedContainer>
         <NavbarLinkExtended to="/">Home</NavbarLinkExtended>
-        <NavbarLinkExtended to="/">services</NavbarLinkExtended>
-        <NavbarLinkExtended to="/">portfolio</NavbarLinkExtended>
+        <NavbarLinkExtended to="/learningSessions">Learning Sessions</NavbarLinkExtended>
+        <NavbarLinkExtended to="/mockinterviews">Mock Interviews</NavbarLinkExtended>
         
-        <NavbarLinkExtended to="/">shop</NavbarLinkExtended>
-        <NavbarLinkExtended to="/">about us</NavbarLinkExtended>
+        <NavbarLinkExtended to="/englishSession">English Programme</NavbarLinkExtended>
+        <NavbarLinkExtended to="/">About us</NavbarLinkExtended>
       </NavbarExtendedContainer>
       )}
       

@@ -1,0 +1,20 @@
+.cover{
+    display: grid;
+    text-align:center;
+    justify-content:center;
+     background-color:#03001C;
+     grid-template-columns: repeat(3, 1fr);
+     padding:10% 3%;
+}
+.title{
+        color:#FFF;
+}
+
+@media screen and (max-width: 900px) {
+    .cover{
+        text-align:center;
+        justify-content:center;
+        grid-template-columns: repeat(1, 1fr);
+         padding:10% 3%;
+    }
+  }

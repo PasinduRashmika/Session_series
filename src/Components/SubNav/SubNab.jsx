@@ -7,13 +7,13 @@ const SubNav = () => {
   return (
     <SubNavContainer>
       <SubLeft>
-        <SubLink to="" >Join Us</SubLink>
+        <SubLink to="" ></SubLink>
       </SubLeft>
       <SubMid>
-        <SubLink to="" >Customer Support</SubLink>
+        <SubLink to="" ></SubLink>
       </SubMid>
       <SubRight>
-        <SubLinkLog to="" ><a href="/login">Login/Register</a></SubLinkLog>
+        <SubLinkLog to="" ><a href="/login"></a></SubLinkLog>
       </SubRight>
     </SubNavContainer>
   );

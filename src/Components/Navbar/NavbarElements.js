@@ -7,6 +7,7 @@ export const NavContainer = styled.nav`
   background-color: var(--color-Three);
   display: flex;
   flex-direction: column;
+
 `;
 export const LeftContainer = styled.div`
   flex: 60%;
@@ -50,7 +51,7 @@ export const NavbarLink = styled(Link)`
   color: var(--color-One);
   text-decoration: none;
   margin: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
 
   &:hover{
